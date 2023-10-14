@@ -1,0 +1,45 @@
+body{
+    background-image: url("Images/computerLab.png");
+    background-size: cover;
+}
+.bg{
+    background-size: 100%;
+    height: 100vh;
+    z-index: -20;
+    position: absolute;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    width: 100vw;
+    background-color: rgba(110, 110, 110, 0.5);
+}
+
+.textWelcome{
+    color: white;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(110, 110, 110, 0.5);
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5%;
+}
+
+.prompt{
+    font-weight: bolder;
+}
+
+.input{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#submit{
+    margin-top: 10px;
+}
